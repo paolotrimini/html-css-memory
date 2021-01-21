@@ -10,6 +10,11 @@ body {
   background-color: lightskyblue;
 }
 
+main {
+  max-width: 1170px;
+  margin: auto;
+}
+
 
 /* header*/
 
@@ -20,7 +25,7 @@ header {
 #titolo {
   font-family: "Nerko One", "Arial", "Times New Roman";
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   font-style: oblique;
   text-align: center;
 }
