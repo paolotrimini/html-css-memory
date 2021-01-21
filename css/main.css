@@ -16,11 +16,7 @@ main {
 }
 
 
-/* header*/
-
-header {
-  margin-bottom: 30px;
-}
+/* box title */
 
 #titolo {
   font-family: "Nerko One", "Arial", "Times New Roman";
@@ -28,10 +24,11 @@ header {
   font-size: 40px;
   font-style: oblique;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 
-/* parte principale */
+/* prima riga */
 
 .container {
   position: relative;
@@ -46,7 +43,6 @@ header {
   width: 130px;
   height: 160px;
   border-radius: 5px;
-
 }
 
 .carta-2 {
@@ -54,6 +50,7 @@ header {
   top: 0px;
   left: 141px;
 }
+
 .carta-3 {
   position: absolute;
 
@@ -98,7 +95,6 @@ header {
   background-color: white;
 }
 
-
 /* terza riga */
 
 .trattore {
@@ -139,7 +135,6 @@ header {
   bottom: 1%;
 }
 
-
 /* footer */
 
 .piepagina {
@@ -150,4 +145,5 @@ header {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 30px;
+
 }
