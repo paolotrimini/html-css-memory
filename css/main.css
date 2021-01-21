@@ -6,12 +6,22 @@
   box-sizing: border-box;
 }
 
-
 body {
-  /* background-color: green; */
+  background-color: lightskyblue;
 }
 
+
+
 /* header*/
+
+#titolo {
+  font-family: "Nerko One", "Arial", "Times New Roman";
+  color: white;
+  font-size: 60px;
+  font-style: oblique;
+  text-align: center;
+
+}
 
 
 
