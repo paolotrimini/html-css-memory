@@ -82,23 +82,57 @@ header {
   width: 130px;
   height: 160px;
   border-radius: 5px;
-
 }
 
 .testo-baloon {
   font-family: "Nerko One", "Arial", "Times New Roman";
-  font-size: 25px;
+  font-size: 20px;
   color: #FF1493;
   text-align: center;
   line-height: 280px;
   background-color: white;
-
 }
 
 
 /* terza riga */
 
+.trattore {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 
+.trattore:hover {
+  border-radius: 5px;
+}
+
+.trattore img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+}
+
+.trattore:hover img{
+  background-color: white;
+  display: inline-block;
+
+}
+
+.trattore .tractor {
+  display: none;
+  text-align: center;
+  font-family: "Nerko One", "Arial", "Times New Roman";
+  font-size: 20px;
+  color: orange;
+}
+
+.trattore:hover .tractor {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  bottom: 1%;
+}
 
 
 /* footer */
